@@ -105,7 +105,7 @@
 
 /*==Our Story==*/
 
-#our_story, #review {
+#our_story, #review, #menu {
   min-height: 600px;
 }
 
@@ -152,7 +152,7 @@
 }
 
 .center {
-  background-color: rgb(20, 20, 20, .6);
+  background-color: rgba(20, 20, 20, .6);
   margin-top: 145px;
   padding: 10px;
   border-radius: 5px;
@@ -172,3 +172,55 @@
 }
 
 /*==End Review==*/
+
+/*==Menu==*/
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.menu_header {
+  color: #fff;
+  font-size: 5em;
+  font-family: 'Lobster', cursive;
+}
+
+#menu a {
+  color: #F8512F;
+  font-weight: 700;
+}
+
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, .1);
+  border: none;
+}
+
+#menu .nav li a {
+  border: none;
+}
+
+
+#menu p {
+  font-family: 'Raleway', Sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
+
+#menu h3 {
+  font-family: 'Raleway', Sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+.food {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+
+}
+
+/*==End Menu==*/
